@@ -67,11 +67,14 @@ nav a:hover {
     padding: 25px;
     border-radius: 15px;
 }
+form input,
 form textarea {
+    width: 100%;
     padding: 10px;
     border: 1px solid #C9A5BD;
     border-radius: 8px;
     font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
 }
 
 form button {
