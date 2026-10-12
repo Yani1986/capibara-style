@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi primera pagina web</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coiny&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body><header id="inicio">
+    <h1>Capibara Style</h1>
+    <h2>Accesorios hechos a mano con mucho amor</h2>
+</header>
+    
+ <nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#resenas">Reseñas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="productos">
+        <h2>Nuestros productos</h2>
+        <h3>¡Pequeños accesorios, grandes sonrisas!</h3>
+        <p>En Capibara Style creamos pulseras, llaveros
+        y phone straps llenos de color, ternura
+        y creatividad.</p>
+        <p> Cada accesorio está hecho a mano con mucho
+        cariño, pensado para darle un toque único
+        y divertido a tu estilo.</p>
+
+    <div class="contenedor-productos">
+
+        <article class="tarjeta">
+            <h3>Pulseras</h3>
+             <img src="imagenes/Pulseras/Ojoturco.jpg"
+                  alt="Pulsera artesanal Ojo Turco"
+                  width="400">
+            <p>Pulseras artesanales llenas de color.</p>
+        </article>
+
+        <article class="tarjeta">
+            <h3>Llaveros</h3>
+             <img src="imagenes/Llaveros/Argentina.jpg"
+                  alt="Llavero artesanal Argentina"
+                  width="300">
+            <p>Llaveros originales para usarlos como quieras.</p>
+        </article>
+
+        <article class="tarjeta">
+            <h3>Phone straps</h3>
+             <img src="imagenes/Phone straps/Phone strap ambientado.jpg"
+                  alt="Phone strap artesanal Coquette"
+                  width="300">
+            <p>Accesorios para darle estilo a tu celular.</p>
+        </article>
+
+    </div>
+    </section>
+
+    <section id="resenas">
+        <h2>Reseñas de nuestros clientes</h2>
+
+        <div class="contenedor-resenas">
+
+        <article> 
+            <h3>¡Una clienta feliz!</h3>
+            <img src="imagenes/Reseñas/Reseña1.png"
+                  alt="Captura de Instagram de una clienta
+             satisfecha con su pulsera"
+                  width="250">
+        </article>
+        
+        <article>
+        <h3>Gracias por elegirnos</h3>
+        <img src="imagenes/Reseñas/Reseña2.png"
+                  alt="Publicación de agradecimiento de
+             Capibara Style en Instagram"
+                  width="250">
+        
+        </article>
+        </div>               
+    </section>
+
+    <section id="contacto">
+    <h2>Contactanos</h2>
+    <p>¿Querés hacer un pedido personalizado? ¡Escribinos!</p>
+
+    <form>
+    <label for="nombre">Tu nombre:</label>
+<input type="text" id="nombre" name="nombre" required>
+    <label for="email">Tu correo electrónico:</label>
+<input type="email" id="email" name="email" required>
+    <label for="mensaje">Tu mensaje:</label>
+<textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+<button type="submit">Enviar consulta</button>
+    </form>
+ </section>
+
+</main>
+
+<footer>
+ <h2>Capibara Style 🦫</h2>
+
+    <p class="footer-eslogan">
+        Accesorios hechos a mano con mucho amor 💜
+    </p>
+
+    <a class="instagram-link"
+       href="https://www.instagram.com/capibarastyle/"
+       target="_blank"
+       rel="noopener noreferrer">
+
+        <img src="imagenes/instagram.svg"
+             alt=""
+             width="24">
+
+        Seguinos en Instagram
+    </a>
+
+    <p class="footer-copy">
+        &copy; 2026 Capibara Style · Hecho con amor
+    </p>
+</footer>
+
+</body>
+</html>
